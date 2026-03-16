@@ -14,6 +14,7 @@ Projeto com implementações de estruturas de dados em Java.
 
 ## 🛠 Tecnologias
 - Java
+- JavaScript
 
 ## 👤 Autor
 Lucas Farias
