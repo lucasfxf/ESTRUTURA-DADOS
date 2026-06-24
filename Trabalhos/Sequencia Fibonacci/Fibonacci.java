@@ -34,27 +34,9 @@ return atual;
 }
 
 //------------------------------------------------------------
-    public static void main(String[] args) {
-    }
 
+public static void main(String[] args) {
+    System.out.println(fiboRecursivo(7));
+    System.out.println(fiboIterativo(7));
 }
-
-//representação da fibo(7) - melhor entendimento
-/*
-fibo(7)
-├── fibo(6)
-│   ├── fibo(5)
-│   │   ├── fibo(4)
-│   │   │   ├── fibo(3)
-│   │   │   └── fibo(2)
-│   │   └── fibo(3)
-│   └── fibo(4)
-└── fibo(5)
-    ├── fibo(4)
-    └── fibo(3)
-*/
-
-/*
-notei que a fibo de 4, 3 e 5 aparecem várias vezes,
-então na minha perspectiva isso seria uma chamada redundante(que ocorre varias vezes na vdd).
-*/
+}
